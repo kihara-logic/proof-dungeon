@@ -1396,7 +1396,7 @@ body.ev-calc [data-cmd="refuteDone"]{pointer-events:none;opacity:.35}
 .kv-chip.kv-dark{background:color-mix(in srgb,var(--ink) 7%,var(--surface));border:1.5px dashed color-mix(in srgb,var(--muted) 70%,transparent);color:var(--muted)}
 .kv-chip.kv-dark .f{opacity:.8}
 .kv-chip.kv-goal.kv-lit{box-shadow:inset 0 0 0 1px var(--brass)}
-.kv-chip.kv-gmiss{border:2px solid var(--bad);color:var(--ink)}
+.kv-chip.kv-dark.kv-gmiss{border:2px solid var(--bad);color:var(--ink)} /* 光らない目標（反例の階）：赤い枠 */
 .kv-chip.kv-hl{box-shadow:0 0 0 2px #5b8fd0!important}
 .kv-chip.kv-lit.kv-hl{background:color-mix(in srgb,#5b8fd0 20%,var(--brass-soft))}
 .kv-legend{display:flex;flex-wrap:wrap;align-items:center;gap:4px 8px;margin:4px 0 6px;font-size:.78rem;color:var(--muted)}
@@ -1419,8 +1419,7 @@ body.ev-calc [data-cmd="refuteDone"]{pointer-events:none;opacity:.35}
 .kv-wrap .kv-floor{cursor:default;min-width:150px;max-width:260px}
 .kv-list{display:flex;flex-wrap:wrap;gap:4px;margin:4px 0 2px}
 .kv-chip{display:inline-flex;align-items:baseline;gap:2px;padding:.08em .45em;border-radius:6px;border:1px solid var(--rule);background:var(--surface);font-size:.9rem;cursor:pointer;transition:background-color .15s,box-shadow .15s}
-.kv-chip.kv-goal{border-color:var(--brass);font-weight:700}
-.kv-chip.kv-prem{border-style:dashed}
+.kv-chip.kv-goal{font-weight:700}
 .kv-tag{font-family:var(--sans);font-size:.6rem;color:var(--muted);margin-left:2px}
 .kv-chip.kv-hl{background:color-mix(in srgb,#5b8fd0 22%,var(--surface));box-shadow:0 0 0 2px #5b8fd0}
 .kv-miss{margin-top:4px;font-size:.8rem;color:var(--bad)}
