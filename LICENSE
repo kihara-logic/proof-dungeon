@@ -11,14 +11,17 @@ This repository contains two kinds of material, licensed differently:
 "Software" means the source code of the game: the HTML, CSS and JavaScript
 in index.html (including the user interface, the proof checker, the
 counterexample checkers, the data structures describing the stages and
-their formulas) and any build or test scripts.
+their formulas, and the stage explanations, hints, tutorial texts and guide
+texts) and any build or test scripts.
 
-"Content" means the written texts created for the game, in both the
-Japanese and the English versions, wherever they appear (inside index.html
-or in separate files), namely:
+"Content" means the narrative and expository texts created for the game,
+in both the Japanese and the English versions, wherever they appear (inside
+index.html or in separate files), namely:
   - the story texts: prologues, stage narration, clear texts, the ending,
     the chat log, inscriptions and the Q&A notebook;
-  - the texts of the books in the in-game library.
+  - the texts of the books in the in-game library;
+  - text and PDF exports of the above (for example story-texts*.txt,
+    library-books*.txt and proof-dungeon-library*.pdf).
 
 If you modify or redistribute index.html, the Software parts are covered
 by Part A and the Content parts by Part B.
@@ -76,7 +79,8 @@ Third-party components (not covered by this license)
 ==========================================================================
 
   - MathJax 3 (Apache License 2.0), loaded from cdnjs at run time.
-  - Fonts: Zen Old Mincho, BIZ UDPGothic, STIX Two Text and Cinzel
+  - Fonts: Zen Old Mincho, BIZ UDPGothic, STIX Two Text, and for the
+    English version Cinzel, Cormorant Garamond and Alegreya Sans
     (SIL Open Font License 1.1), loaded from Google Fonts at run time.
   - Works cited in the library books remain under the copyright of their
     respective authors and publishers.
@@ -88,11 +92,14 @@ Their own licenses apply to them.
 日本語の要約（参考。法的な効力は上の英語の本文にあります）
 ==========================================================================
 
-  - ソフトウェア（index.html の HTML・CSS・JavaScript のコード、
+  - ソフトウェア（index.html の HTML・CSS・JavaScript のコード。
+    各ステージの説明・ヒント、チュートリアルと案内の文を含む。
     ビルドやテストのスクリプト）は MIT ライセンスです。
     著作権表示とライセンス文を残せば、改変・再配布・商用利用を含め、
     自由に使えます。
-  - 文章（物語、書庫の書物、問答帳、チャットログ。日本語版・英語版の両方）は CC BY-NC-SA 4.0 です。
+  - 文章（物語、書庫の書物、問答帳、チャットログなど。日本語版・
+    英語版の両方と、それらを書き出したテキスト・PDF を含む）は
+    CC BY-NC-SA 4.0 です。
     作者名（木原貴行「Proof Dungeon」）とライセンスを表示し、
     非営利で、改変したものも同じライセンスで公開する限り、
     改変・再配布できます。
