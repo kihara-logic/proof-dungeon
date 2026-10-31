@@ -1,0 +1,105 @@
+Proof Dungeon: The Labyrinth of Natural Deduction
+Copyright (c) 2026 Takayuki Kihara
+
+This repository contains two kinds of material, licensed differently:
+
+  1. Software  - licensed under the MIT License (Part A below).
+  2. Content   - licensed under the Creative Commons
+                 Attribution-NonCommercial-ShareAlike 4.0 International
+                 License (CC BY-NC-SA 4.0) (Part B below).
+
+"Software" means the source code of the game: the HTML, CSS and JavaScript
+in index.html (including the user interface, the proof checker, the
+counterexample checkers, the data structures describing the stages and
+their formulas) and any build or test scripts.
+
+"Content" means the written texts created for the game, in both the
+Japanese and the English versions, wherever they appear (inside index.html
+or in separate files), namely:
+  - the story texts: prologues, stage narration, clear texts, the ending,
+    the chat log, inscriptions and the Q&A notebook;
+  - the texts of the books in the in-game library;
+  - stage explanations (lessons), hints, tutorial texts and guide texts;
+  - text and PDF exports of the above (for example story-texts*.txt,
+    library-books*.txt, stage-texts*.txt and proof-dungeon-library*.pdf).
+
+If you modify or redistribute index.html, the Software parts are covered
+by Part A and the Content parts by Part B.
+
+
+==========================================================================
+Part A. Software: MIT License
+==========================================================================
+
+Copyright (c) 2026 Takayuki Kihara
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+==========================================================================
+Part B. Content: CC BY-NC-SA 4.0
+==========================================================================
+
+Copyright (c) 2026 Takayuki Kihara
+
+The Content is licensed under the Creative Commons
+Attribution-NonCommercial-ShareAlike 4.0 International License.
+To view a copy of this license, visit
+  https://creativecommons.org/licenses/by-nc-sa/4.0/
+The full legal code is available at
+  https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+
+In short (this summary is not a substitute for the license):
+  - Attribution: give appropriate credit ("Proof Dungeon" by Takayuki
+    Kihara), provide a link to the license, and indicate if changes
+    were made.
+  - NonCommercial: you may not use the Content for commercial purposes.
+  - ShareAlike: if you remix, transform, or build upon the Content, you
+    must distribute your contributions under the same license.
+
+
+==========================================================================
+Third-party components (not covered by this license)
+==========================================================================
+
+  - MathJax 3 (Apache License 2.0), loaded from cdnjs at run time.
+  - Fonts: Zen Old Mincho, BIZ UDPGothic, STIX Two Text and Cinzel
+    (SIL Open Font License 1.1), loaded from Google Fonts at run time.
+  - Works cited in the library books remain under the copyright of their
+    respective authors and publishers.
+
+Their own licenses apply to them.
+
+
+==========================================================================
+日本語の要約（参考。法的な効力は上の英語の本文にあります）
+==========================================================================
+
+  - ソフトウェア（index.html の HTML・CSS・JavaScript のコード、
+    ビルドやテストのスクリプト）は MIT ライセンスです。
+    著作権表示とライセンス文を残せば、改変・再配布・商用利用を含め、
+    自由に使えます。
+  - 文章（物語、書庫の書物、問答帳、チャットログ、各ステージの説明・
+    ヒント、チュートリアルと案内の文。日本語版・英語版の両方と、
+    それらを書き出したテキスト・PDF を含む）は CC BY-NC-SA 4.0 です。
+    作者名（木原貴行「Proof Dungeon」）とライセンスを表示し、
+    非営利で、改変したものも同じライセンスで公開する限り、
+    改変・再配布できます。
+  - MathJax とフォントは、それぞれ元のライセンス（Apache 2.0、
+    SIL OFL 1.1）に従います。

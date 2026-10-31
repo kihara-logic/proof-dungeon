@@ -58,6 +58,13 @@ G. Gentzen (1935), D. Prawitz (1965), D. van Dalen, *Logic and Structure*（ゲ�
 - 数式の表示：MathJax 3（Apache License 2.0）
 - Lean モードで書き出すコードは、Lean 4（Apache License 2.0）で検査できます。
 
+## ライセンス
+
+- **ソフトウェア**（HTML・CSS・JavaScript のコード）：[MIT License](LICENSE)
+- **文章**（物語、書庫の書物、問答帳、各ステージの説明・ヒント、チュートリアルの文など。日本語版・英語版とも）：[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+詳しくは [LICENSE](LICENSE) を参照してください。MathJax とフォントは、それぞれ元のライセンスに従います。
+
 ---
 
 # Proof Dungeon: The Labyrinth of Natural Deduction
@@ -71,3 +78,5 @@ A browser game in which you build proofs in natural deduction and show, with cou
 - Just open `index.html` in a browser. Progress is saved in your browser.
 
 Created by: Takayuki Kihara, Claude Opus 5.5 (Anthropic). Inspired by the [Natural Number Game](https://adam.math.hhu.de/#/g/leanprover-community/nng4) (Kevin Buzzard, Jon Eugster et al.) and [The Incredible Proof Machine](https://incredible.pm/) (Joachim Breitner). Fonts: Zen Old Mincho, BIZ UDPGothic, STIX Two Text (SIL OFL 1.1). Math rendering: MathJax 3 (Apache License 2.0).
+
+License: the software (HTML, CSS and JavaScript) is under the [MIT License](LICENSE); the written content (story, library books, Q&A notebook, lessons, hints and tutorial texts, in both languages) is under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). See [LICENSE](LICENSE) for details.
