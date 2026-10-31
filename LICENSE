@@ -18,10 +18,7 @@ Japanese and the English versions, wherever they appear (inside index.html
 or in separate files), namely:
   - the story texts: prologues, stage narration, clear texts, the ending,
     the chat log, inscriptions and the Q&A notebook;
-  - the texts of the books in the in-game library;
-  - stage explanations (lessons), hints, tutorial texts and guide texts;
-  - text and PDF exports of the above (for example story-texts*.txt,
-    library-books*.txt, stage-texts*.txt and proof-dungeon-library*.pdf).
+  - the texts of the books in the in-game library.
 
 If you modify or redistribute index.html, the Software parts are covered
 by Part A and the Content parts by Part B.
@@ -95,9 +92,7 @@ Their own licenses apply to them.
     ビルドやテストのスクリプト）は MIT ライセンスです。
     著作権表示とライセンス文を残せば、改変・再配布・商用利用を含め、
     自由に使えます。
-  - 文章（物語、書庫の書物、問答帳、チャットログ、各ステージの説明・
-    ヒント、チュートリアルと案内の文。日本語版・英語版の両方と、
-    それらを書き出したテキスト・PDF を含む）は CC BY-NC-SA 4.0 です。
+  - 文章（物語、書庫の書物、問答帳、チャットログ。日本語版・英語版の両方）は CC BY-NC-SA 4.0 です。
     作者名（木原貴行「Proof Dungeon」）とライセンスを表示し、
     非営利で、改変したものも同じライセンスで公開する限り、
     改変・再配布できます。
